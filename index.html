@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog personal Dani</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Cabecera */
+        header {
+            background-color: #af4c96;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Secciones */
+        main {
+            padding: 20px;
+        }
+
+        /* Estilos distintivos por sección */
+        #inicio {
+            background-color: #e0f7fa;
+            /* Azul claro */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #biografia {
+            background-color: #fce4ec;
+            /* Rosa claro */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #habilidades {
+            background-color: #e8f5e9;
+            /* Verde claro */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #proyectos {
+            background-color: #fff3e0;
+            /* Naranja claro */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #estudios {
+            background-color: #e3f2fd;
+            /* Azul muy claro */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #religion {
+            background-color: #f9fbe7;
+            /* Verde pálido */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #hobbies {
+            background-color: #f3e5f5;
+            /* Violeta claro */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #contacto {
+            background-color: #ffebee;
+            /* Rosa muy claro */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* Títulos de sección */
+        section h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        /* Listas */
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            list-style-type: square;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+            border-top: 5px solid #388e3c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cabecera -->
+    <header>
+        <h1>Dania Daniela Condori Pino</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#estudios">Estudios</a></li>
+                <li><a href="#religion">Religión</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Secciones principales -->
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>¡Hola! Soy Daniela. Bienvenido a mi espacio personal, donde comparto mis pensamientos, proyectos y
+                aprendizajes. Soy una persona apasionada por el crecimiento personal y profesional, siempre en busca de
+                nuevas oportunidades para mejorar. Mi curiosidad me lleva a explorar diversos temas, desde tecnología
+                hasta desarrollo personal, y mi habilidad para comunicarme con claridad me permite conectar con quienes
+                me leen. A través de este blog, espero inspirar a otros a seguir sus propios caminos de aprendizaje,
+                innovación y reflexión.</p>
+
+            <img src="logo.jpeg.crdownload" alt="Foto de perfil" class="header-img">
+        </section>
+
+        <section id="biografia">
+            <h2>Biografía</h2>
+            <p>Soy Daniela, un apasionado de la música y el deporte, con una profunda inclinación por la administración
+                y los negocios internacionales. Nací en 2003 y crecí en un ambiente familiar lleno de armonía, siendo el
+                mayor de tres hermanos y viviendo con mi mamá. Desde pequeño, he tenido una conexión especial con la
+                música, aprendiendo a tocar varios instrumentos y componiendo dos canciones propias. Mi educación
+                comenzó en el Colegio Adventista Puno, donde forjé mi base académica y personal. Actualmente, estudio
+                Administración y Negocios Internacionales en la Universidad Peruana Unión, buscando desarrollarme
+                profesionalmente en el mundo de los negocios. Además, me encanta jugar fútbol y disfruto mucho del
+                servicio a los demás, siempre manteniendo una actitud alegre y positiva.</p>
+
+            <video width="600" controls>
+                <source src="videos/video-local.mp4" type="video/mp4">
+                <source src="videos/video-local.webm" type="video/webm">
+                <source src="videos/video-local.ogv" type="video/ogg">
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Música y composición: Tienes la habilidad de tocar varios instrumentos y has compuesto dos
+                    canciones, lo que demuestra tu creatividad y talento musical.</li>
+                <li>Trabajo en equipo: Como jugador de fútbol y persona servicial, tienes una gran capacidad para
+                    colaborar y trabajar de manera efectiva con otros en entornos grupales.</li>
+                <li>Gestión y administración: Estás estudiando Administración y Negocios Internacionales, lo que indica
+                    que tienes habilidades en la toma de decisiones, organización y gestión de recursos.</li>
+                <li>Deporte y disciplina: Al jugar fútbol, demuestras una gran capacidad de trabajo en equipo, esfuerzo
+                    y disciplina.</li>
+                <li>Creatividad: Tu capacidad para componer canciones y aprender instrumentos muestra una gran
+                    creatividad y adaptabilidad a nuevas formas de expresión.</li>
+                <li>Actitud positiva: Eres una persona alegre, lo que contribuye a mantener un ambiente positivo tanto
+                    en tu vida personal como profesional.</li>
+
+                    <iframe width="782" height="440" src="https://www.youtube.com/embed/bs8HUItJXgY?list=RDbs8HUItJXgY" title="Daniel Castro | Sueños y Promesas (Acoustic Version) • Video Oficial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <p>Aquí están algunos de los proyectos en los que he trabajado:</p>
+            <ul>
+                <li>Proyecto 1: Composición de música. A lo largo de mi vida, he compuesto dos canciones propias,
+                    experimentando con diferentes estilos y aprendiendo a combinar mis habilidades musicales con mi
+                    creatividad.</li>
+                <li>Proyecto 2: Escritura de un libro. He dedicado tiempo a la creación literaria, desarrollando mi
+                    capacidad para estructurar ideas y expresarlas de manera coherente a través de la escritura.</li>
+                <li>Proyecto 3: Desarrollo de liderazgo. He trabajado en mejorar mis habilidades de liderazgo,
+                    participando en actividades que me han permitido liderar equipos y proyectos, aprendiendo a tomar
+                    decisiones y motivar a otros.</li>
+            </ul>
+        </section>
+
+        <section id="estudios">
+            <h2>Estudios</h2>
+            <p>"He cursado estudios en diversas instituciones y programas que me han permitido fortalecer mis
+                conocimientos y habilidades. Algunos de los más relevantes incluyen:
+
+            <p>Colegio Adventista Puno: Mi formación escolar, donde adquirí una base sólida tanto académica como
+                personal.</p>
+            <p>Universidad Peruana Unión: Actualmente estudio Administración y Negocios Internacionales, enfocándome en
+                el desarrollo de habilidades de gestión, liderazgo y toma de decisiones en el ámbito empresarial.</p>
+        </section>
+
+        <section id="religion">
+            <h2>Religión</h2>
+            <p>Soy una persona de fe y mi religión es una parte fundamental de mi vida. Pertenezco a la Iglesia
+                Adventista del Séptimo Día, y trato de vivir mis valores y principios en todas las áreas de mi vida. La
+                espiritualidad guía mis decisiones y actitudes, ayudándome a mantener una perspectiva positiva y
+                centrada en el bienestar de los demás.</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>Mis pasatiempos incluyen:</p>
+            <ul>
+                <li>Leer: Me gusta sumergirme en libros de diversos géneros, desde ficción hasta desarrollo personal, ya
+                    que me permiten aprender y explorar nuevas ideas.</li>
+                <li>Viajar: Disfruto descubrir nuevos lugares, culturas y experiencias, lo que me ayuda a expandir mi
+                    visión del mundo.</li>
+                <li>Deporte: Practico fútbol y otras actividades físicas, ya que me ayudan a mantenerme activo y
+                    equilibrado.</li>
+                <li>Escuchar música: La música es una de mis grandes pasiones. Me encanta disfrutar de diferentes
+                    géneros y, además, me inspira tanto para componer como para desconectar y relajarme.</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si quieres ponerte en contacto conmigo, puedes enviarme un correo electrónico a:
+                danielacondoripino@gmail.com.</p>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Daniela - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>
